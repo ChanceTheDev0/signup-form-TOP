@@ -5,7 +5,7 @@
 }
 
 body {
-    height: 100vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,6 +54,12 @@ h2 {
     margin: 20px;
 }
 
+form {
+    display: flex;
+    flex: 50%;
+    justify-content: space-around;
+}
+
 .form-wrapper {
     display: flex;
     flex-direction: column;
@@ -64,16 +70,12 @@ h2 {
     box-shadow: 2px 3px 2px rgb(158, 158, 158);
 }
 
-.child1 {
+.child {
     display: flex;
-    width: 33%;
-    
-
+    flex-direction: column;
 }
 
-.child2 {
+.row-cell {
     display: flex;
-    width: 33%;
-    
+    flex-direction: column;
 }
-
