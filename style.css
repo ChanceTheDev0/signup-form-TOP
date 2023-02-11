@@ -9,7 +9,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(247, 244, 244);
 }
 
 .leafimg {
@@ -51,13 +51,14 @@ header {
 h2 {
     display: flex;
     font-size: 22px;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 form {
     display: flex;
     flex: 50%;
-    justify-content: space-around;
+    justify-content: flex-start;
 }
 
 .form-wrapper {
