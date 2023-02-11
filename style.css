@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Norse;
+    font-weight: bold;
+    src: url('font/Norse-Bold.otf');
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leafimg {
+    position: absolute;
+    left: 0px;
+    top: 0px
+   
+}
+
+.logo {
+    position: absolute;
+    left: 40px;
+    top: 200px;
+    background: rgba(0, 0, 0, .5);
+    height: 17vh;
+    width: 22vw;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Norse;
+    font-size: 3rem;
+}
+
+.logo img {
+    max-height: 100%;
+}
+
+header {
+    display: flex;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.form-wrapper {
+    display: flex;
+    width: 50%;
+    height: 80%;
+}
+
