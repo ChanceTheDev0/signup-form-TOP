@@ -5,7 +5,7 @@
 }
 
 body {
-    height: 60vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,11 +21,11 @@ body {
 
 .logo {
     position: absolute;
-    left: 40px;
+    left: 0px;
     top: 200px;
     background: rgba(0, 0, 0, .5);
     height: 17vh;
-    width: 22vw;
+    width: 30.5%;
     padding: 1rem;
     display: flex;
     justify-content: center;
@@ -44,8 +44,13 @@ header {
     font-size: 28px;
     font-weight: bold;
     width: 45vw;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   
+}
+
+.head-wrapper {
+    display: flex; 
 }
 
 h2 {
@@ -64,9 +69,12 @@ form {
 .form-wrapper {
     display: flex;
     flex-direction: column;
+    width: 100vw;
     margin-left: 38%;
     margin-right: 4%;
+    margin-top: 7%;
     padding: 10px;
+    padding-left: 40px;
     background-color: white;
     box-shadow: 2px 3px 2px rgb(158, 158, 158);
 }
@@ -74,9 +82,23 @@ form {
 .child {
     display: flex;
     flex-direction: column;
+    margin-right: 20px;
 }
 
 .row-cell {
     display: flex;
     flex-direction: column;
+    margin: 5px;
 }
+
+label {
+    margin: 2.5px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 32%;
+}
+
