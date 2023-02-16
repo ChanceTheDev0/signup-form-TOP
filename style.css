@@ -93,6 +93,7 @@ form {
 
 label {
     margin: 2.5px;
+    font-size: 14px;
 }
 
 .wrap {
@@ -100,4 +101,44 @@ label {
     flex-direction: column;
     align-items: center;
     margin-left: 32%;
+}
+
+form input {
+    border: 1px solid #D6D9DC;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 14px;
+}
+
+form input:focus {
+    border: 1px solid rgb(41, 41, 255);
+    box-shadow: 2px 2px 2px rgb(58, 58, 58);
+}
+
+.bttn-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 38%;
+    margin-top: 4%;
+}
+
+button {
+    border: 1px solid #596D48;
+    border-radius: 10px;
+    background-color: #596D48;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    height: 42px;
+    width: 160px;
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+    color: #596D48;
+    font-weight: bold;
 }
